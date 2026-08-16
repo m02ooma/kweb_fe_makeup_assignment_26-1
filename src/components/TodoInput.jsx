@@ -10,13 +10,10 @@ const TodoInput = ({ onTodoAdded }) => {
     e.preventDefault();
     if (!title.trim() || isSubmitting) return;
 
-    // 1. createTodo API 호출
-    // 2. 입력창 초기화 (setTitle(''))
-    // 3. 성공 시 onTodoAdded() 호출하여 목록 새로고침
+    await createTodo(title);
     console.log(`Create todo with title: ${title}`);
-    
-    // API 연동 후 호출되도록 수정하세요.
     setTitle('');
+    onTodoAdded();
   };
 
   return (

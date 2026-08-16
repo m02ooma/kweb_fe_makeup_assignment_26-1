@@ -13,27 +13,27 @@
     {
       "id": 3,
       "title": "GET API 연동 예시 확인하기",
-      "completed": false
+      "completed": true
     },
     {
       "id": 4,
       "title": "할 일 추가 기능 (POST) 구현하기",
-      "completed": false
+      "completed": true
     },
     {
       "id": 5,
       "title": "완료 상태 토글 기능 (PATCH) 구현하기",
-      "completed": false
+      "completed": true
     },
     {
       "id": 6,
       "title": "할 일 삭제 기능 (DELETE) 구현하기",
-      "completed": false
+      "completed": true
     },
     {
       "id": 7,
       "title": "스터디 회고 페이지 작성하기",
-      "completed": false
+      "completed": true
     }
   ]
 }

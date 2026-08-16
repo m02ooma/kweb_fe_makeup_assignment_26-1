@@ -29,7 +29,7 @@ function App() {
       </header>
 
       <main className="app-main">
-        {/* TODO: currentTab 상태값에 따라 TodoPage 컴포넌트와 ReviewPage 컴포넌트를 조건부 렌더링하세요. */}
+        {currentTab === 'todo' ? <TodoPage /> : <ReviewPage />}
       </main>
     </div>
   );
